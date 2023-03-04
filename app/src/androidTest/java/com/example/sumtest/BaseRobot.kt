@@ -10,6 +10,10 @@ import com.example.sumtest.EspressoExtensions.Companion.searchFor
 import org.hamcrest.Matcher
 import java.lang.Thread.sleep
 
+/**
+ * Credit to stackoverflow user manbradcalf:
+ * https://stackoverflow.com/users/4510083/manbradcalf
+ */
 open class BaseRobot {
     fun doOnView(matcher: Matcher<View>, vararg actions: ViewAction) {
         actions.forEach {

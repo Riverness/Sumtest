@@ -9,6 +9,10 @@ import androidx.test.espresso.matcher.ViewMatchers.isRoot
 import androidx.test.espresso.util.TreeIterables
 import org.hamcrest.Matcher
 
+/**
+ * Credit to stackoverflow user manbradcalf:
+ * https://stackoverflow.com/users/4510083/manbradcalf
+ */
 class EspressoExtensions {
     companion object {
         /**
